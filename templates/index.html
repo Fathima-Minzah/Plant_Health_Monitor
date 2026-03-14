@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plant Health Monitor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #4CAF50, #81C784);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: #ffffff;
+            width: 90%;
+            max-width: 700px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h2 {
+            color: #2E7D32;
+            margin-bottom: 20px;
+        }
+
+        .upload-box {
+            border: 2px dashed #4CAF50;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            background-color: #f9fff9;
+        }
+
+        button {
+            background-color: #2E7D32;
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #1B5E20;
+            transform: scale(1.05);
+        }
+
+        .result-box {
+            margin-top: 25px;
+            padding: 20px;
+            background: #f1f8e9;
+            border-radius: 12px;
+            text-align: left;
+        }
+
+        .label {
+            font-weight: 600;
+            color: #388E3C;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>🌿 Plant Health Monitor</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <div class="upload-box">
+            <p>Upload a leaf image to analyze its health condition</p>
+            <input type="file" name="image" required>
+        </div>
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if prediction %}
+    <div class="result-box">
+        <h3>🩺 Prediction: {{ prediction }}</h3>
+
+        <p><span class="label">Category:</span> {{ meta.category }}</p>
+        <p><span class="label">Treatment:</span> {{ meta.treatment }}</p>
+        <p><span class="label">Prevention:</span> {{ meta.prevention }}</p>
+
+        <hr>
+        <h4>🤖 AI Advisory</h4>
+        <p>{{ advice }}</p>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
+
+

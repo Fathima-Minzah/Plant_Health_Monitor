@@ -1,0 +1,102 @@
+--- MobileNetV2 Results ---
+C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+           0       0.80      1.00      0.89      1591
+           1       0.00      0.00      0.00       409
+
+    accuracy                           0.80      2000
+   macro avg       0.40      0.50      0.44      2000
+weighted avg       0.63      0.80      0.70      2000
+
+
+--- ResNet50 Results ---
+C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+           0       0.80      1.00      0.89      1591
+           1       0.00      0.00      0.00       409
+
+    accuracy                           0.80      2000
+   macro avg       0.40      0.50      0.44      2000
+weighted avg       0.63      0.80      0.70      2000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           1       0.00      0.00      0.00       409
+
+    accuracy                           0.80      2000
+   macro avg       0.40      0.50      0.44      2000
+weighted avg       0.63      0.80      0.70      2000
+
+
+
+
+
+
+
+
+
+
+
+
+           1       0.00      0.00      0.00       409
+
+    accuracy                           0.80      2000
+   macro avg       0.40      0.50      0.44      2000
+weighted avg       0.63      0.80      0.70      2000
+
+
+
+
+
+
+
+           1       0.00      0.00      0.00       409
+
+    accuracy                           0.80      2000
+   macro avg       0.40      0.50      0.44      2000
+weighted avg       0.63      0.80      0.70      2000
+
+
+
+
+
+           1       0.00      0.00      0.00       409
+
+    accuracy                           0.80      2000
+   macro avg       0.40      0.50      0.44      2000
+weighted avg       0.63      0.80      0.70      2000
+           1       0.00      0.00      0.00       409
+
+           1       0.00      0.00      0.00       409
+
+    accuracy                           0.80      2000
+   macro avg       0.40      0.50      0.44      2000
+weighted avg       0.63      0.80      0.70      2000
+
+PS D:\plant_health_monitor>

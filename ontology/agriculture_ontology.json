@@ -1,0 +1,12 @@
+{
+  "Tomato___Late_blight": {
+    "category": "Fungal",
+    "treatment": "Copper-based fungicide",
+    "prevention": "Avoid overhead watering and improve air circulation"
+  },
+  "Potato___Early_blight": {
+    "category": "Fungal",
+    "treatment": "Apply chlorothalonil",
+    "prevention": "Use disease-free seeds"
+  }
+}
