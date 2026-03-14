@@ -1,3 +1,7 @@
+Module Name - Computer Vision
+Module ID - NB6010CEM
+Student ID - COBSCCOMP4Y241P-026
+
 Plant Health Monitor – Plant Disease Recognition System
 
 1. Project Overview
